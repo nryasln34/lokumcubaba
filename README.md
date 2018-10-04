@@ -41,7 +41,7 @@ $ git clone https://github.com/nryasln34/lokumcubaba.git
 ```sh
 $ sql.sql
 ```
-4.Buraya veritabanı bilgilerini yazıyosunuz.
+4.Servlet-content.xml dosyasında bu kısımlara veritabanı bilgilerimizi yazıyoruz.
 ```sh
 </beans:bean>
 	<beans:bean id="dataSource"
@@ -55,13 +55,13 @@ $ sql.sql
 	</beans:bean>
 
 ```
-5.Servlet-content.xml dosyasında bu kısımlara veritabanı bilgilerimizi yazıyoruz.
 
 
 
-6. Yukardaki işlemleri sorunsuz yaptığınız zaman uygulamamız çalışacaktır.
 
-7. Veritabanında kayıtlı kullanıcı bilgileri---> mail :nirayaslan@gmail.com root şifre:1234
+5. Yukardaki işlemleri sorunsuz yaptığınız zaman uygulamamız çalışacaktır.
+
+
 
 
 # Uygulamadan Görüntü
