@@ -65,9 +65,8 @@ $ sql.sql
 
 
 # Uygulamadan Görüntü
-![N|Solid](https://i.hizliresim.com/r1n6k1.png)
+![N|Solid](https://i.hizliresim.com/r1n6oz.png)
 * Kayıt Ekranı
-
 
 
 
