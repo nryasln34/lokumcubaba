@@ -34,22 +34,45 @@ $ git clone https://github.com/nryasln34/lokumcubaba.git
 ```
 
 2. Eclipse'i açıp "open project" diyerek projemizi Eclipse'e ekliyoruz.
+3. Ardından Maven > Update Project yapıyoruz. 
 
 3. Database klasörü altındaki sql.sql dosyasını Mysql'e import Ediyoruz.
 
 ```sh
 $ sql.sql
 ```
+4.Buraya veritabanı bilgilerini yazıyosunuz.
+```sh
+</beans:bean>
+	<beans:bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<beans:property name="driverClassName"
+			value="com.mysql.jdbc.Driver" />
+		<beans:property name="url"
+			value="jdbc:mysql://localhost:3306/lokumcubaba?characterEncoding=latin1" />
+		<beans:property name="username" value="root" />
+		<beans:property name="password" value="root" />
+	</beans:bean>
+
+```
+5.Servlet-content.xml dosyasında bu kısımlara veritabanı bilgilerimizi yazıyoruz.
 
 
 
-9. Yukardaki işlemleri sorunsuz yaptığınız zaman uygulamamız çalışacaktır.
+6. Yukardaki işlemleri sorunsuz yaptığınız zaman uygulamamız çalışacaktır.
 
-10. Veritabanında kayıtlı kullanıcı bilgileri---> mail : root şifre:1234
+7. Veritabanında kayıtlı kullanıcı bilgileri---> mail :nirayaslan@gmail.com root şifre:1234
+
+
+# Uygulamadan Görüntü
+![N|Solid](https://i.hizliresim.com/r1n6k1.png)
+* Kayıt Ekranı
+
+
+
 
 
 
  
  
-
 
